@@ -63,6 +63,7 @@ out/
 
 # Spring Boot
 !**/src/main/**/application*.properties
+src/main/resources/application.properties
 !**/src/main/**/application*.yml
 !**/src/main/**/bootstrap*.properties
 !**/src/main/**/bootstrap*.yml
