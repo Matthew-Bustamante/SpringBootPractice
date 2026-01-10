@@ -31,7 +31,7 @@ public class RunController {
 	List<Run> findAll(){
 		return runRepository.findAll();
 	}
-/*	
+	
 	
 	
 	@GetMapping("/{id}")
@@ -65,5 +65,4 @@ public class RunController {
 	void delete(@PathVariable Integer id) {
 		runRepository.delete(id);
 	}
-	*/
 }

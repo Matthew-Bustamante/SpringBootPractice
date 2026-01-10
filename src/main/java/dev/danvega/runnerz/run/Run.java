@@ -12,7 +12,7 @@ public record Run (
 		LocalDateTime startedOn, 
 		LocalDateTime completedOn,
 		@Positive
-		Integer Miles, 
+		Integer miles, 
 		Location location
 ) {
 	public Run {
