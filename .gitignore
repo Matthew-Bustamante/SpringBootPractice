@@ -78,6 +78,7 @@ logs/
 Thumbs.db
 
 # Other temporary files
+docker-compose.yml
 *.jar
 *.war
 *.ear
