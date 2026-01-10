@@ -12,8 +12,8 @@ public record Run (
 		LocalDateTime startedOn, 
 		LocalDateTime completedOn,
 		@Positive
-		Integer Miles, 
-		Location loaction
+		Integer miles, 
+		Location location
 ) {
 	public Run {
 		if (!completedOn.isAfter(startedOn)) {

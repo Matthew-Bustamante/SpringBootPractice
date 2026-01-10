@@ -13,6 +13,7 @@ import org.springframework.context.annotation.Bean;
 
 import dev.danvega.runnerz.run.Location;
 import dev.danvega.runnerz.run.Run;
+import dev.danvega.runnerz.run.RunRepository;
 
 @SpringBootApplication
 public class RunnerzApplication {
@@ -24,12 +25,13 @@ public class RunnerzApplication {
 		log.info("Application started successfully!");
 	}
 	
-	@Bean
-	CommandLineRunner runner() {
-		return args -> {
-			Run run = new Run(1, "First Run", LocalDateTime.now(), LocalDateTime.now().plus(1, ChronoUnit.HOURS), 5, Location.OUTDOOR);
-			log.info("Run: " + run);
-		};
-	}
+	//@Bean
+	//CommandLineRunner runner(RunRepository runRepository) {
+		//return args -> {
+			//Run run = new Run(1, "First Run", LocalDateTime.now(), LocalDateTime.now().plus(1, ChronoUnit.HOURS), 5, Location.OUTDOOR);
+			//log.info("Run: " + run);
+			//runRepository.create(run);
+		//};
+	//}
 
 }
