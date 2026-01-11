@@ -13,7 +13,7 @@ import org.springframework.context.annotation.Bean;
 
 import dev.danvega.runnerz.run.Location;
 import dev.danvega.runnerz.run.Run;
-import dev.danvega.runnerz.run.RunRepository;
+import dev.danvega.runnerz.run.JdbcClientRunRepository;
 
 @SpringBootApplication
 public class RunnerzApplication {
