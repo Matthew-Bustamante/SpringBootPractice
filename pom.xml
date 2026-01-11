@@ -62,6 +62,12 @@
       <artifactId>spring-boot-starter-data-jdbc</artifactId>
     </dependency>
 	<!--______________________________________________________-->
+	<!--___________Rest Client Dependency________________-->
+	<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-restclient</artifactId>
+	</dependency>
+	<!--______________________________________________-->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-webmvc</artifactId>
